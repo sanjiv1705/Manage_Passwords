@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Business_Card"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company : "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/company"
+        android:padding="20dp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Front : "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/front"
+        android:padding="10dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the front image of card"
+        android:layout_marginLeft="200dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:id="@+id/fronti"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back : "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/back"
+        android:padding="10dp"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the back image of card"
+        android:layout_marginLeft="200dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:id="@+id/backi"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/savebusiness"
+        android:text="SAVE "
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_margin="50dp"
+        />
+
+</LinearLayout>
+

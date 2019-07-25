@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grade"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="View Your Saved Sites"
+        android:textColor="#FF1744"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:background="#1DE9B6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:text="Manage Your Saved Sites"
+        android:textColor="#FF1744"
+        android:textSize="20dp"
+
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#1DE9B6"/>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btn4"
+    android:text="Delete All Saved Sites"
+    android:textColor="#FF1744"
+    android:textSize="20dp"
+    android:layout_margin="30dp"
+    android:background="#1DE9B6"/>
+
+
+
+
+
+</LinearLayout>

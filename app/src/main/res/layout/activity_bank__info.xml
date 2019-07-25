@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bank_Info"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" NAME :"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" A/C NO :"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="30dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" IFSC :"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" TYPE :"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" SAVE"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:padding="20dp"
+        android:id="@+id/savebank"
+       />
+
+
+
+</LinearLayout>
